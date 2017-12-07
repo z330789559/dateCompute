@@ -7,15 +7,15 @@
       }else{
           root.dateCompute=factory();
       }
-}(typeof (window!=undefined)?window:this,function(){
+}( typeof window!=="undefined"?window:this,function(){
     var  dateCompute={
          name:"日期工具",
         showDate:function(date){
-            var _date;
-            if(typeof date=="string"){
-                _date=new Date(date);
+            var _date=date;
+            if(typeof _date=="string"){
+                _date=new Date(_date);
             }
-            if(typeof date !="object"){
+            if(typeof _date !="object"){
                console.log("日期不符合输入");
             }
            return _date.getDay();

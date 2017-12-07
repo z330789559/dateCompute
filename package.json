@@ -11,6 +11,10 @@
   "keywords": [
     "demo/npm"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:z330789559/dateCompute.git"
+  },
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-uglify": "^1.5.3",
