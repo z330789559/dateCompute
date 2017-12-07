@@ -1,0 +1,23 @@
+{
+  "name": "datecompute",
+  "version": "1.0.0",
+  "description": "计算一句话打因需要的时间",
+  "main": "dist/index.mini.js",
+  "scripts": {
+    "lint":"jshint src/index.js",
+    "test": "node test/test.js",
+    "build": "gulp mini"
+  },
+  "keywords": [
+    "demo/npm"
+  ],
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-uglify": "^1.5.3",
+    "jshint": "^2.9.2",
+    "gulp-rename": "^1.2.2",
+    "tape": "^3.6.1"
+  },
+  "author": "libaozhong",
+  "license": "ISC"
+}
